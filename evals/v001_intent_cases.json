@@ -1,0 +1,187 @@
+[
+  {
+    "id": "case_01",
+    "input": "create note Architecture Review with content I/O isolation is confirmed",
+    "expected_tool": "create_note",
+    "expected_args": {
+      "title": "Architecture Review",
+      "content": "I/O isolation is confirmed"
+    }
+  },
+  {
+    "id": "case_02",
+    "input": "create note Standup Summary with content Built sqlite repo and migrations",
+    "expected_tool": "create_note",
+    "expected_args": {
+      "title": "Standup Summary"
+    }
+  },
+  {
+    "id": "case_03",
+    "input": "create note Meeting notes : Discussed Gloomy UI wireframes",
+    "expected_tool": "create_note",
+    "expected_args": {
+      "title": "Meeting notes"
+    }
+  },
+  {
+    "id": "case_04",
+    "input": "create note Python Idioms with content Use Protocols over inheritance",
+    "expected_tool": "create_note",
+    "expected_args": {
+      "title": "Python Idioms"
+    }
+  },
+  {
+    "id": "case_05",
+    "input": "create note Research on Letta with content Persistent agent memory concepts",
+    "expected_tool": "create_note",
+    "expected_args": {
+      "title": "Research on Letta"
+    }
+  },
+  {
+    "id": "case_06",
+    "input": "create idea Voice-controlled code navigation",
+    "expected_tool": "create_idea",
+    "expected_args": {
+      "title": "Voice-controlled code navigation"
+    }
+  },
+  {
+    "id": "case_07",
+    "input": "create idea Offline whisper.cpp transcription pipeline",
+    "expected_tool": "create_idea",
+    "expected_args": {
+      "title": "Offline whisper.cpp transcription pipeline"
+    }
+  },
+  {
+    "id": "case_08",
+    "input": "create idea Piper TTS with custom neural voice models",
+    "expected_tool": "create_idea",
+    "expected_args": {
+      "title": "Piper TTS with custom neural voice models"
+    }
+  },
+  {
+    "id": "case_09",
+    "input": "create idea Experience Engine discrepancy detector",
+    "expected_tool": "create_idea",
+    "expected_args": {
+      "title": "Experience Engine discrepancy detector"
+    }
+  },
+  {
+    "id": "case_10",
+    "input": "create idea Gloomy canvas view with BlockNote editor",
+    "expected_tool": "create_idea",
+    "expected_args": {
+      "title": "Gloomy canvas view with BlockNote editor"
+    }
+  },
+  {
+    "id": "case_11",
+    "input": "create task Write SQLite migration tests [high]",
+    "expected_tool": "create_task",
+    "expected_args": {
+      "title": "Write SQLite migration tests",
+      "priority": "high"
+    }
+  },
+  {
+    "id": "case_12",
+    "input": "create task Implement MCP adapter schema serializer",
+    "expected_tool": "create_task",
+    "expected_args": {
+      "title": "Implement MCP adapter schema serializer",
+      "priority": "medium"
+    }
+  },
+  {
+    "id": "case_13",
+    "input": "create task Benchmark cold-start latency [low]",
+    "expected_tool": "create_task",
+    "expected_args": {
+      "title": "Benchmark cold-start latency",
+      "priority": "low"
+    }
+  },
+  {
+    "id": "case_14",
+    "input": "create task Document open source reuse findings",
+    "expected_tool": "create_task",
+    "expected_args": {
+      "title": "Document open source reuse findings"
+    }
+  },
+  {
+    "id": "case_15",
+    "input": "create task Verify foreign key constraints in SQLite [high]",
+    "expected_tool": "create_task",
+    "expected_args": {
+      "title": "Verify foreign key constraints in SQLite",
+      "priority": "high"
+    }
+  },
+  {
+    "id": "case_16",
+    "input": "list projects",
+    "expected_tool": "list_projects",
+    "expected_args": {}
+  },
+  {
+    "id": "case_17",
+    "input": "show projects",
+    "expected_tool": "list_projects",
+    "expected_args": {}
+  },
+  {
+    "id": "case_18",
+    "input": "projects",
+    "expected_tool": "list_projects",
+    "expected_args": {}
+  },
+  {
+    "id": "case_19",
+    "input": "list project",
+    "expected_tool": "list_projects",
+    "expected_args": {}
+  },
+  {
+    "id": "case_20",
+    "input": "get current context",
+    "expected_tool": "get_current_context",
+    "expected_args": {}
+  },
+  {
+    "id": "case_21",
+    "input": "current context",
+    "expected_tool": "get_current_context",
+    "expected_args": {}
+  },
+  {
+    "id": "case_22",
+    "input": "status",
+    "expected_tool": "get_current_context",
+    "expected_args": {}
+  },
+  {
+    "id": "case_23",
+    "input": "Hello GAIA, what can you do?",
+    "expected_tool": null,
+    "expected_args": null
+  },
+  {
+    "id": "case_24",
+    "input": "Good morning",
+    "expected_tool": null,
+    "expected_args": null
+  },
+  {
+    "id": "case_25",
+    "input": "Thank you for the update",
+    "expected_tool": null,
+    "expected_args": null
+  }
+]
